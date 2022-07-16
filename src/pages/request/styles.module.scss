@@ -1,0 +1,51 @@
+@import '../../styling/varibles.scss';
+.section {
+    background-color: $light;
+    margin-block: 0.5rem;
+    padding: 2.5rem 2.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 0.6rem -0.3rem $shadow;
+    @media (max-width: $medium_screens) {
+        padding: 1rem;
+    }
+    h2,
+    h4 {
+        color: $grey;
+    }
+}
+
+.provider_section{
+   padding: 1.5rem;
+   background-color: $off-white;
+   border-radius: 0.5rem;
+   div{
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 100%;
+   }
+   svg{
+    width: 100%;
+    height: auto;
+   }
+   h4{
+    margin:0.5rem 0;
+   }
+}
+
+.members_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view_button {
+    color: $primary;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    &[aria-disabled='true'] {
+       svg{
+        transform: rotate(180deg);
+       }
+    }
+}

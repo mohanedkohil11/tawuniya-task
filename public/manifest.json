@@ -1,0 +1,8 @@
+{
+  "short_name": "Tawuniya",
+  "name": "Tawuniya Task",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#d99340",
+  "background_color": "#ffffff"
+}

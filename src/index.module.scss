@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import './styling/varibles.scss';
+
+html {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    @media (max-width: $small_screens) {
+        font-size: 14px;
+    }
+
+    @media (max-width: $mobile_Screens) {
+        font-size: 12px;
+    }
+}
+body {
+    height: 100%;
+    margin-block: 0rem;
+    margin-inline: 1rem;
+    display: flow-root;
+    background-color: $off-white;
+}
+main {
+    padding-inline: 0.75rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+button {
+    font-family: 'Noto Sans JP', sans-serif;
+    cursor: pointer;
+    &:focus {
+        outline: 0;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $light_grey;
+}

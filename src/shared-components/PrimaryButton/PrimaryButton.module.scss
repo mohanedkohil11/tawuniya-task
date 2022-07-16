@@ -1,0 +1,14 @@
+@import "../../styling/varibles.scss";
+
+.primary_btn{
+    background-color: $primary;
+    padding: 1.25rem;
+    border: none;
+    border-radius: 0.25rem;
+    width: 100%;
+    color: $light;
+    font-size: 1rem;
+    &:hover{
+        filter: brightness(1.1);
+    }
+}

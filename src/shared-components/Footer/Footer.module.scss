@@ -1,0 +1,25 @@
+@import '../../styling/varibles.scss';
+
+.Footer{
+    padding-block-end: 1rem;
+}
+.hr {
+    border: 1px solid $grey;
+    filter: opacity(0.1);
+    margin-block: 2rem;
+}
+
+.coptright {
+    color: $grey;
+    font-size: 0.8rem;
+    margin-block: 0rem;
+}
+
+.footerLinks {
+    a {
+        text-decoration: none;
+        color: $grey;
+        font-size: 0.8rem;
+        margin-inline-end: 1rem;
+    }
+}

@@ -1,0 +1,37 @@
+@import '../../styling/varibles.scss';
+
+.breadCrumb {
+    margin-block: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 0.75rem;
+
+    a {
+        text-decoration: none;
+        font-weight: 500;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        svg {
+            margin-inline: 0.25rem;
+            color: $primary;
+            font-size: 1rem;
+        }
+    }
+
+    .dark_text {
+        color: $dark_grey;
+    }
+
+    .light_text {
+        color: $grey;
+    }
+    
+    .arrow {
+        svg {
+            margin-inline: 0.5rem;
+            font-size: 0.65rem;
+        }
+    }
+}
