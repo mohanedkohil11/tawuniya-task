@@ -1,3 +1,4 @@
+/* eslint-disable react/forbid-prop-types */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import React from 'react';
@@ -48,7 +49,7 @@ function CardItem({ icon, subtitle, title }) {
 }
 
 CardItem.propTypes = {
-    icon: PropTypes.func.isRequired,
+    icon: PropTypes.object.isRequired,
     subtitle: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
 };

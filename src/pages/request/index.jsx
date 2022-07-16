@@ -17,7 +17,7 @@ export default function Request() {
                     <ProviderSection />
                 </div>
 
-                <PrimaryButton title="Submit Eligibility letter Request" />
+                <PrimaryButton title="Submit Eligibility letter Request" onClick={()=>{}}/>
             </div>
 
             <Footer />
